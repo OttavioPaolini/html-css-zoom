@@ -57,15 +57,16 @@ footer{
     justify-content: space-between;
 }
 .box{
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
 }
-.box2{
-    border: 1px solid red;
-}
-.box3{
-    color: red;
-    border: 1px solid red;
+.box-3{
+    padding: 0 2em;
+    height: 100%;
     background-color: #4A4A4A;
+}
+.end-meeting{
+    color: red;
 }
 #green-icon{
     color: green;
