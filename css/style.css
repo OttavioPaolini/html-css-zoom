@@ -1,0 +1,29 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+/* Main Screen */
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: 50px auto 20px;
+    /* debug */
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.col {
+    width: calc(100% / 7 - 10px);
+    
+}
