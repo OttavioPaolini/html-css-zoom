@@ -7,23 +7,66 @@
 img{
     max-width: 100%;
 }
-
+html{
+    color: white;
+}
 /* Main Screen */
+main{
+    background-color: black;
+}
 .container{
     width: 90%;
     height: 100vh;
-    margin: 50px auto 20px;
-    /* debug */
-    background-color: aquamarine;
-    border: 1px solid black;
+    margin: 0 auto ;
+    overflow: auto;
 }
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     
 }
-
 .col {
-    width: calc(100% / 7 - 10px);
+    margin-bottom: 15px;
+    width: calc(100% / 7 - 5px);
     
+}
+.photo{
+    position: relative;
+}
+.gandalf{
+    
+}
+.name{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    z-index: 10;
+}
+/* FOOTER */
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: #222222;
+}
+.tool-bar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border: 1px solid red;
+}
+.box2{
+    border: 1px solid red;
+}
+.box3{
+    color: red;
+    border: 1px solid red;
+    background-color: #4A4A4A;
+}
+#green-icon{
+    color: green;
 }
